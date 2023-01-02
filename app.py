@@ -70,7 +70,7 @@ def sms_reply():
     elif 'main board' in user_msg:
         msg.body("President:Dnyaneshwari Kolapkar\nVice President:Krishnacharan Bhola\n\nfor more visit www.wcewlug.org")
     elif 'show' in user_msg:
-        msg.body("1.List of Main Board\n2.List of Assistant Board\n3.Register for ongoing event\n4.Linux Fact")
+        msg.body("1.List of Main Board\n2.List of Assistant Board\n3.Register for ongoing event\n4.Linux quote")
     elif 'logo' in user_msg:
         msg.media("https://www.wcewlug.org/images/wluglogo.png")
     elif 'quote' in user_msg:
