@@ -66,7 +66,7 @@ def sms_reply():
     bot_resp=MessagingResponse()
     msg=bot_resp.message()
     if 'hello' in user_msg or 'hi' in user_msg or 'hey' in user_msg:
-        msg.body("Hello There, I am a Bot created for Walchand Linux users Group 🐧!!\n What can i help you with?")
+        msg.body("Hello There, I am a Bot created for Walchand Linux users Group 🐧!!\n What can i help you with?\n\n Type show to see available Commands")
     elif 'main board' in user_msg or '1' in user_msg:
         msg.body("President:\nDnyaneshwari Kolapkar\nVice President:\nKrishnacharan Bhola\n\nfor more visit www.wcewlug.org")
     elif 'show' in user_msg or '6' in user_msg:
