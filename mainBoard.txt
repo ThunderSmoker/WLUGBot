@@ -1,0 +1,55 @@
+1) President:
+
+Dnyaneshwari Kolapkar
+
+2) Vice President:
+
+Krishnacharan Bhola
+
+3) Secretaries :
+
+Akshata Gawande
+Ritesh Wanawe
+
+4) Program Directors:
+
+Ankur Gaikwad
+Daulatrao Patil
+Sagar Rahangdale
+
+5) Club Service Directors:
+
+Vaishnavi Kulkarni
+Sahil Otari
+Rutuja Khilare
+
+6) Aptitude Head:
+
+Gopal Shendge
+Abhishek Deokar
+
+7) Public Relation Officer:
+
+Siddhi Hagawane
+Brijesh Kumar
+
+8) Design Head
+
+Prathamesh Raje
+Omkar Birajdar
+
+9) Developer:
+
+Vishal Jha
+Ayush Thasale
+
+10) Editor:
+
+Nilay Shirke
+Chetana Patil
+
+11) Technical Advisor:
+
+Kranti Bharti
+Hrushikesh Bhosale
+
