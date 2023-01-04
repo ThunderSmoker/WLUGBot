@@ -115,7 +115,7 @@ def sms_reply():
             msg.body("Register Yourself First by Sending\n <name>:<post>")
         else:
             pist=checkpost(temp)
-            msg.body(f"Hello {temp}, I am a Bot created for Walchand Linux users Group 🐧!!\n\nI Welcome you {pist}😁!! \n\n What can i help you with?\n\n Type show to see available Commands")
+            msg.body(f"Hello {temp}, I am a Bot created for Walchand Linux users Group 🐧!!\n\nI Welcome you {pist} 😁!! \n\n What can i help you with? 🙇‍♂️\n\n Type show to see available Commands")
     elif 'register myself' in user_msg or 'myself' in user_msg or ':' in user_msg:
         register(num,usermsg)
         msg.body("Congratulations !! You are registered🎊")
@@ -131,7 +131,7 @@ def sms_reply():
         if temp==False:
             msg.body("Register Yourself First by Sending\n <name>:<post>")
         else:
-            msg.body("1.List of Main Board\n2.List of Assistant Board\n3.Register for ongoing event\n4.Linux quote\n5.WLUG Logo\n6.User Info\n7.Show Commands")
+            msg.body("1.List of Main Board\n2.List of Assistant Board\n3.Register for ongoing event\n4.Linux quote\n5.WLUG Logo\n6.User Info\n7. Show Commands")
     elif 'logo' in user_msg or '5' in user_msg:
         if temp==False:
             msg.body("Register Yourself First by Sending\n <name>:<post>")
