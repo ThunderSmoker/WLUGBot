@@ -168,7 +168,7 @@ def sms_reply():
         elif '=?' in user_msg or '?' in user_msg :
             distro=""
             for i in user_msg:
-                if i=='=' or i==' ':
+                if i=='=' or i==' ' or i=='?':
                     break
                 distro+=i
             link=showDistro(distro)
