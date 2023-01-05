@@ -63,6 +63,11 @@ def sms_reply():
     # resp.message("You said: {}".format(msg))
 
     # return str(resp)
+    def showDistro(name):
+        with open('numbers.txt', mode='a') as numbers_file:
+            # number_writer = csv.writer(numbers_file, delimiter=',')
+            # number_writer.writerow([num,name])
+
     def register(num,str):
         flag=0
         name=""
@@ -127,11 +132,11 @@ def sms_reply():
             p=p.read()
             msg.body(p)
             #msg.body("President:\nDnyaneshwari Kolapkar\nVice President:\nKrishnacharan Bhola\n\nfor more visit www.wcewlug.org")
-    elif 'show' in user_msg or '7' in user_msg:
+    elif 'show' in user_msg or '8' in user_msg:
         if temp==False:
             msg.body("Register Yourself First by Sending\n <name>:<post>")
         else:
-            msg.body("1.List of Main Board\n2.List of Assistant Board\n3.Register for ongoing event\n4.Linux quote\n5.WLUG Logo\n6.User Info\n7. Show Commands")
+            msg.body("1.List of Main Board\n2.List of Assistant Board\n3.Register for ongoing event\n4.Linux quote\n5.WLUG Logo\n6.User Info\n7. Distro Link for Download \n 8. Show Commands")
     elif 'logo' in user_msg or '5' in user_msg:
         if temp==False:
             msg.body("Register Yourself First by Sending\n <name>:<post>")
@@ -167,6 +172,17 @@ def sms_reply():
             p=open("asstBoard.txt",'r')
             p=p.read()
             msg.body(p)
+    elif 'distro' in user_msg or '7' in user_msg:
+        if temp==False:
+            msg.body("Register Yourself First by Sending\n <name>:<post>")
+        else:
+            msg.body("To get downloading link for any Linux Distro,Type\n <Distro name>:Link")
+    elif ':link' in user_msg:
+        if temp==False:
+            msg.body("Register Yourself First by Sending\n <name>:<post>")
+        else:
+            link=showDistro(user_msg)
+            
     else: 
         msg.body('Sorry , Didnt get What you said! Send a Valid Command')
     return str(bot_resp) 
