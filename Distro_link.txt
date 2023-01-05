@@ -1,0 +1,8 @@
+
+Ubuntu , https://ubuntu.com/download	
+Kali , https://www.kali.org/get-kali/
+CentOS , https://wiki.centos.org/Download
+Fedora , https://getfedora.org/	
+Mint	Xubuntu , https://www.linuxmint.com/download.php	
+Kubuntu , https://kubuntu.org/getkubuntu/	
+Manjaro , https://sourceforge.net/projects/manjarolinux/files/	
