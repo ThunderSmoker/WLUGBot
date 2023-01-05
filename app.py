@@ -164,11 +164,11 @@ def sms_reply():
             p=p.read()
             msg.body(p)
         elif 'distro' in user_msg or '7' in user_msg:
-            msg.body("To get downloading link for any Linux Distro, type:\n<Distro name>=?")
-        elif '=?' in user_msg or '?' in user_msg :
+            msg.body("To get downloading link for any Linux Distro, type:\n<Distro name>!")
+        elif '!' in user_msg:
             distro=""
             for i in user_msg:
-                if i=='=' or i==' ' or i=='?':
+                if i=='!' or i==' ':
                     break
                 distro+=i
             link=showDistro(distro)
